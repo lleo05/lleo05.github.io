@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroMilhões</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="manifest" href="manifest.json">
+    <script src="js.js"></script>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+
+        h1, h2{
+            margin-top: 30px;
+        }
+
+        #numbers, #estrelas{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>EuroMilhões</h1>
+    <h2>Números</h2>
+    <div class="submit">
+        <button type="button" class="btn btn-primary" onclick="generate(5, 1, 50);">Gerar Números</button>
+    </div>
+    <div id="numbers"></div>
+
+    <h2>Estrelas</h2>
+    <div class="submit">
+        <button type="button" class="btn btn-primary" onclick="generateEstrelas(2, 1, 12);">Gerar Estrelas</button>
+    </div>
+    <div id="estrelas"></div>
+
+</body>
+
+</html>
