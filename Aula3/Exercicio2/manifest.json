@@ -1,0 +1,15 @@
+{
+    "name": "Account-Maker",
+    "short_name": "Form A-M",
+    "start_url": "account-maker",
+    "display": "standalone",
+    "background_color": "#00f",
+    "description": "Formulário",
+    "icons": [
+        {
+            "src": "_img/icon1.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        }
+    ]
+}

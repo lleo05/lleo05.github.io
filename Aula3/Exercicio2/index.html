@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account-Maker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="js.js"></script>
+    <style>
+        body {
+            margin-top: 30px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        #email{
+            margin-left: -15px;
+        }
+
+        button#botao {
+            padding-left: 180px;
+            padding-right: 180px;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="formulario" onsubmit="validar(event)">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Nome</label>
+                <input type="text" class="form-control" id="inputName" name="nome" placeholder="Nome" value="Leonardo"
+                    required>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Apelido</label>
+                <input type="text" class="form-control" id="inputName2" name="nome" placeholder="Apelido"
+                    value="Loureiro" required>
+            </div>
+        </div>
+        <div class="form-group col-md-6" id="email">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail" name="nome" placeholder="Email"
+                value="leonardoloureiro.leo@gmail.com" required>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Morada</label>
+            <input type="text" class="form-control" id="inputMorada" name="nome" placeholder="Morada"
+                value="Avenida Cidade Guimarães" required>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md4">
+                <label for="inputCity">Telemóvel</label>
+                <input type="number" class="form-control" id="inputNumber" name="nome" placeholder="123456789"
+                    value="910440084" required>
+            </div>
+            <div class="form-group col-md4">
+                <label for="inputNIF">NIF</label>
+                <input type="number" class="form-control" id="inputNIF" name="nome" placeholder="NIF" value="123456789"
+                    required>
+            </div>
+            <div class="form-group col-md4">
+                <label for="exampleFormControlTextarea1">Observações</label>
+                <textarea class="form-control" id="observacoes" name="nome" rows="4"></textarea>
+            </div>
+        </div>
+        </div>
+        <button type="submit" class="btn btn-primary" id="botao">Sign in</button>
+    </form>
+</body>
+
+</html>
