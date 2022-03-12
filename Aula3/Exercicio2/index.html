@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="js.js"></script>
+    <link rel="manifest" href="manifest.json">
     <style>
         body {
             margin-top: 30px;
@@ -19,11 +20,6 @@
         #email{
             margin-left: -15px;
         }
-
-        button#botao {
-            padding-left: 180px;
-            padding-right: 180px;
-        }
     </style>
 </head>
 
@@ -32,19 +28,19 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputEmail4">Nome</label>
-                <input type="text" class="form-control" id="inputName" name="nome" placeholder="Nome" value="Leonardo"
+                <input type="text" class="form-control" id="inputName" name="nome" placeholder="Nome" value=""
                     required>
             </div>
             <div class="form-group col-md-6">
                 <label for="inputPassword4">Apelido</label>
                 <input type="text" class="form-control" id="inputName2" name="nome" placeholder="Apelido"
-                    value="Loureiro" required>
+                    value="" required>
             </div>
         </div>
         <div class="form-group col-md-6" id="email">
             <label for="inputEmail4">Email</label>
             <input type="email" class="form-control" id="inputEmail" name="nome" placeholder="Email"
-                value="leonardoloureiro.leo@gmail.com" required>
+                value="" required>
         </div>
         <div class="form-group">
             <label for="inputAddress">Morada</label>
@@ -68,7 +64,7 @@
             </div>
         </div>
         </div>
-        <button type="submit" class="btn btn-primary" id="botao">Sign in</button>
+        <button type="submit" class="btn btn-primary" id="botao">Submeter</button>
     </form>
 </body>
 

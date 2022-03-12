@@ -10,6 +10,11 @@
             "src": "_img/icon1.png",
             "sizes": "48x48",
             "type": "image/png"
+        },
+        {
+            "src": "_img/icon1.png",
+            "sizes": "48x48",
+            "type": "image/png"
         }
     ]
 }
