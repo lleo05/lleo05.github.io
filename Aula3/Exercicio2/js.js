@@ -1,15 +1,3 @@
-/* function validar() {
-    let nome = formulario.nome;
-
-    if (nome.value == " ") {
-        alert("Valor inválido! Deve introduzir os valores corretamente em todos os campos.")
-
-        nome.focus();
-    } else {
-        console.log("Todos o campos introduzidos estão corretos!")
-    }
-} */
-
 /* Função Validar */
 function validar(event) {
     event.preventDefault()
