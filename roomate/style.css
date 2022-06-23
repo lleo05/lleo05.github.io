@@ -1,0 +1,630 @@
+body {
+    margin-left: 34px !important;
+    margin-right: 34px !important;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    color: #0D0D0D;
+
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 52px;
+    margin-top: 90px;
+}
+
+h2 {
+    position: absolute;
+    width: 183px;
+    height: 30px;
+    top: 639px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+
+/* ---------- SERVIÇOS ---------- */
+/* -------------------- Pedir Toalhas -------------------- */
+
+img#logotipo {
+    position: absolute;
+    width: 37px;
+    left: 195px;
+    top: 62px;
+}
+
+div#toalhas {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    left: 34px;
+    top: 167px;
+}
+
+div#background-toalhas {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    top: 30px;
+
+    background: linear-gradient(300.32deg, #00ACED 0%, rgba(58, 210, 255, 0.8) 100%);
+    border-radius: 20px;
+}
+
+div#toalhas p {
+    position: absolute;
+    width: 134px;
+    height: 30px;
+    left: 14px;
+    bottom: 10px;
+}
+
+div#toalhas img {
+    position: absolute;
+    left: 14px;
+    top: 16px;
+}
+
+/* -------------------- Pedir Papel Higiénico -------------------- */
+
+div#papel-higienico {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    left: 224px;
+    top: 167px;
+}
+
+div#background-papel-higienico {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    top: 30px;
+
+    background: linear-gradient(300.32deg, #00D04F 0%, rgba(0, 219, 76, 0.8) 100%);
+    border-radius: 20px;
+}
+
+div#papel-higienico p {
+    position: absolute;
+    width: 134px;
+    height: 30px;
+    left: 14px;
+    bottom: 10px;
+}
+
+div#papel-higienico img {
+    position: absolute;
+    left: 14px;
+    top: 16px;
+}
+
+/* -------------------- Pedir Produtos de Banho -------------------- */
+
+div#produtos-banho {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    left: 34px;
+    top: 317px;
+}
+
+div#background-produtos-banho {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    top: 30px;
+
+    background: linear-gradient(120.32deg, rgba(104, 68, 238, 0.8) 0%, #6240DE 100%);
+    border-radius: 20px;
+}
+
+div#produtos-banho p {
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    left: 14px;
+    bottom: 10px;
+}
+
+div#produtos-banho img {
+    position: absolute;
+    left: 14px;
+    top: 16px;
+}
+
+/* -------------------- Pedir Comida -------------------- */
+
+div#comida {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    left: 224px;
+    top: 317px;
+}
+
+div#background-comida {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    top: 30px;
+
+    background: linear-gradient(120.32deg, rgba(255, 208, 0, 0.8) 0%, #FFDB00 100%);
+    border-radius: 20px;
+}
+
+div#comida p {
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    left: 14px;
+    bottom: 10px;
+}
+
+div#comida img {
+    position: absolute;
+    left: 14px;
+    top: 16px;
+}
+
+/* -------------------- Marcar SPA -------------------- */
+
+div#spa {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    left: 34px;
+    top: 467px;
+}
+
+div#background-spa {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    top: 30px;
+
+    background: linear-gradient(300.32deg, #BF27E4 0%, rgba(208, 43, 249, 0.8) 100%);
+    border-radius: 20px;
+}
+
+div#spa p {
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    left: 14px;
+    bottom: 10px;
+}
+
+div#spa img {
+    position: absolute;
+    left: 14px;
+    top: 16px;
+}
+
+/* -------------------- Marcar Treino -------------------- */
+
+div#treino {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    left: 224px;
+    top: 467px;
+}
+
+div#background-treino {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    top: 30px;
+
+    background: linear-gradient(300.32deg, #FF9200 0%, rgba(255, 158, 0, 0.8) 100%);
+    border-radius: 20px;
+}
+
+div#treino p {
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    left: 14px;
+    bottom: 10px;
+
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+
+div#treino img {
+    position: absolute;
+    left: 14px;
+    top: 16px;
+}
+
+/* ---------- ESTADOS ---------- */
+/* -------------------- Estado do Quarto: Não Entrar -------------------- */
+
+button#nao-entrar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 34px;
+    top: 710px;
+
+    border: 1px solid red;
+    background-color: transparent !important;
+    border-radius: 20px;
+}
+
+#nao-entrar:hover,
+#nao-entrar:focus,
+#nao-entrar:active {
+    background-color: transparent !important;
+}
+
+p#nao-entrar {
+    position: absolute;
+
+    left: 50px;
+    top: 790px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #0D0D0D;
+}
+
+#ativar-nao-entrar {
+    display: none;
+}
+
+div#background-ativar-nao-entrar {
+    position: absolute;
+
+    position: absolute;
+    width: 428px;
+    height: 350px;
+    left: 0px;
+    padding-left: 34px;
+    margin-top: 438px;
+    background: #FFF;
+    color: #0d0d0d
+}
+
+button#ativar-estado-nao-entrar {
+    width: 300px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 70px !important;
+}
+
+
+/* -------------------- Estado do Quarto: Não Incomodar -------------------- */
+
+div#nao-incomodar {
+    position: absolute;
+    width: 80px;
+    height: 103px;
+    left: 127px;
+    top: 710px;
+}
+
+div#line-nao-incomodar {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 80px;
+    height: 80px;
+
+    border: 1px solid #6240DE;
+    /* border-image: linear-gradient(135deg, rgba(255, 32, 11, 0.5) 0%, #FF0000 100%);
+    border-image-slice: 1; */
+    border-radius: 20px;
+
+}
+
+div#nao-incomodar p {
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    left: 6.5px;
+    top: 80px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #0D0D0D;
+}
+
+div#line-nao-incomodar img {
+    position: absolute;
+    left: 27px;
+    right: 28px;
+    bottom: 14px;
+}
+
+/* -------------------- Estado do Quarto: Necessário Limpar -------------------- */
+
+div#necessario-limpar {
+    position: absolute;
+    width: 80px;
+    height: 103px;
+    left: 220px;
+    top: 710px;
+}
+
+div#line-necessario-limpar {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 80px;
+    height: 80px;
+
+    border: 1px solid #A68557;
+    /* border-image: linear-gradient(135deg, rgba(255, 32, 11, 0.5) 0%, #FF0000 100%);
+    border-image-slice: 1; */
+    border-radius: 20px;
+
+}
+
+div#necessario-limpar p {
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    left: 2px;
+    top: 80px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #0D0D0D;
+}
+
+div#line-necessario-limpar img {
+    position: absolute;
+    left: 27px;
+    right: 28px;
+    bottom: 14px;
+}
+
+/* -------------------- Estado do Quarto: Necessário Arrumar -------------------- */
+
+div#necessario-arrumar {
+    position: absolute;
+    width: 80px;
+    height: 103px;
+    left: 313px;
+    top: 710px;
+}
+
+div#line-necessario-arrumar {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 80px;
+    height: 80px;
+
+    border: 1px solid #00CCC1;
+    /* border-image: linear-gradient(135deg, rgba(255, 32, 11, 0.5) 0%, #FF0000 100%);
+    border-image-slice: 1; */
+    border-radius: 20px;
+
+}
+
+div#necessario-arrumar p {
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    left: 2px;
+    top: 80px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #0D0D0D;
+}
+
+div#line-necessario-arrumar img {
+    position: absolute;
+    left: 27px;
+    right: 28px;
+    bottom: 14px;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    position: absolute;
+    width: 428px;
+    height: 100px;
+    left: 0px;
+    top: 835px;
+
+    background: #0D0D0D;
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer p {
+    position: absolute;
+    left: -23px;
+    top: 25px;
+
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+/* -------------------- Footer: Home -------------------- */
+
+div#home {
+    position: absolute;
+    left: 54px;
+    right: 15px;
+    top: 18px;
+    bottom: 62px;
+}
+
+/* -------------------- Footer: Pedidos/Registos -------------------- */
+
+div#pedidos-registos {
+    position: absolute;
+    left: 199px;
+    right: 199px;
+    top: 18px;
+    bottom: 62px;
+}
+
+div#pedidos-registos p {
+    position: absolute;
+    left: -27px;
+}
+
+/* -------------------- Footer: Ajuda -------------------- */
+
+div#ajuda {
+    position: absolute;
+    left: 343px;
+    right: 53.4px;
+    top: 18px;
+    bottom: 62px;
+}
+
+div#ajuda p {
+    position: absolute;
+    left: 1px;
+}
+
+
+/* ---------- FOOTER ---------- */
+/* -------------------- Ligar -------------------- */
+
+div#ligar {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    left: 34px;
+    top: 167px;
+}
+
+div#background-ligar {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    top: 30px;
+
+    background: linear-gradient(300.32deg, #00D04F 0%, rgba(0, 219, 76, 0.8) 100%);
+    border-radius: 20px;
+}
+
+div#ligar p {
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    left: 14px;
+    bottom: 10px;
+
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+
+div#ligar img {
+    position: absolute;
+    left: 14px;
+    top: 16px;
+}
+
+/* -------------------- SMS -------------------- */
+
+div#sms {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    left: 224px;
+    top: 167px;
+}
+
+div#background-sms {
+    position: absolute;
+    width: 170px;
+    height: 130px;
+    top: 30px;
+
+    background: linear-gradient(300.32deg, #FF9200 0%, rgba(255, 158, 0, 0.8) 100%);
+    border-radius: 20px;
+}
+
+div#sms p {
+    position: absolute;
+    width: 145px;
+    height: 30px;
+    left: 14px;
+    bottom: 10px;
+
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+
+div#sms img {
+    position: absolute;
+    left: 14px;
+    top: 16px;
+}
