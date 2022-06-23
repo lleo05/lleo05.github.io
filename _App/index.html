@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roomate</title>
+    <link rel="icon" type="image/x-icon" href="_img/favicon.png">
+
+    <link rel="stylesheet" href="style.css"> <!-- Ficheiro geral -->
+    <link rel="stylesheet" href="displays.css"> <!-- Ficheiro apenas para adaptar a app aos vários ecrãs -->
+    <link rel="manifest" href="manifest.json">
+
+    
+</head>
+
+<body>
+    <!-- <img src="_img/logotipo.png" id="logotipo" alt="Logotipo roomate"> -->
+
+    <h1>Todos os Serviços</h1>
+
+    <section id="servicos">
+        <a href="_servicos/pedir-toalhas.html">
+            <div id="toalhas">
+                <div id="background-toalhas">
+                    <img src="_img/icon-toalhas.png" alt="icon-toalhas">
+                    <p>Pedir Toalhas</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="_servicos/pedir-papel.html">
+            <div id="papel-higienico">
+                <div id="background-papel-higienico">
+                    <img src="_img/icon-papel-higienico.png" alt="icon-papel-higienico">
+                    <p>Pedir Papel Higiénico</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="_servicos/pedir-produtos-banho.html">
+            <div id="produtos-banho">
+                <div id="background-produtos-banho">
+                    <img src="_img/icon-produtos-banho.png" alt="icon-produtos-banho">
+                    <p>Pedir Produtos de Banho</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="_servicos/pedir-comida.html">
+            <div id="comida">
+                <div id="background-comida">
+                    <img src="_img/icon-comida.png" alt="icon-comida">
+                    <p>Pedir Comida</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="_servicos/marcar-spa.html">
+            <div id="spa">
+                <div id="background-spa">
+                    <img src="_img/icon-spa.png" alt="icon-spa">
+                    <p>Marcar SPA</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="_servicos/marcar-treino.html">
+            <div id="treino">
+                <div id="background-treino">
+                    <img src="_img/icon-treino.png" alt="icon-treino">
+                    <p>Marcar Treino</p>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <h2>Estados do Quarto</h2>
+
+    <section id="estados">
+        <button type="button" id="nao-entrar" class="btn btn-outline-warning">
+            <img src="_img/icon-nao-entrar.png" alt="icon-nao-entrar">
+        </button>
+        <p id="nao-entrar">Não Entrar</p>
+
+
+
+        <!-- <div id="nao-entrar">
+            <div id="line-nao-entrar">
+                <img src="_img/icon-nao-entrar.png" alt="icon-nao-entrar">
+            </div>
+
+            <p>Não Entrar</p>
+        </div> -->
+
+        <div id="nao-incomodar">
+            <div id="line-nao-incomodar">
+                <img src="_img/icon-nao-incomodar.png" alt="icon-nao-icomodar">
+            </div>
+
+            <p>Não Icomodar</p>
+        </div>
+
+        <div id="necessario-limpar">
+            <div id="line-necessario-limpar">
+                <img src="_img/icon-necessario-limpar.png" alt="icon-necessario-limpar">
+            </div>
+
+            <p>Necessário Limpar</p>
+        </div>
+
+        <div id="necessario-arrumar">
+            <div id="line-necessario-arrumar">
+                <img src="_img/icon-necessario-arrumar.png" alt="icon-necessario-arrumar">
+            </div>
+
+            <p>Necessário Arrumar</p>
+        </div>
+    </section>
+
+    <section>
+        <div id="ativar-nao-entrar">
+            <div id="background-ativar-nao-entrar">
+                <p>Ativar Estado: Não Entrar</p>
+
+                <button type="button" class="btn btn-outline-dark" id="ativar-estado-nao-entrar">Ativar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="index.html">
+            <div id="home">
+                <img src="_img/icon-home.png" alt="icon-home">
+                <p>Página Principal</p>
+            </div>
+        </a>
+
+        <a href="pedidos-registos.html">
+            <div id="pedidos-registos">
+                <img src="_img/icon-pedidos-registos.png" alt="icon-home">
+                <p>Pedidos/Registos</p>
+            </div>
+        </a>
+
+        <a href="ajuda.html">
+            <div id="ajuda">
+                <img src="_img/icon-ajuda.png" alt="icon-home">
+                <p>Ajuda</p>
+            </div>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="firestore.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

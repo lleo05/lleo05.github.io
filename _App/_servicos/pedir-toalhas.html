@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roomate - Pedir Toalhas</title>
+    <link rel="icon" type="image/x-icon" href="_img/favicon.png">
+
+    <link rel="stylesheet" href="../style.css"> <!-- Ficheiro geral -->
+    <link rel="stylesheet" href="../displays.css"> <!-- Ficheiro apenas para adaptar a app aos vários ecrãs -->
+    <link rel="stylesheet" href="pedir-toalhas.css"> <!-- Ficheiro para os Serviços -->
+
+    <link rel="manifest" href="../manifest.json">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!--  <a href="../index.html">
+        <img src="../_img/icon-cruz.png" id="cruz" alt="icon-voltar-atras">
+    </a> -->
+
+
+
+    <div class="container center">
+        <div class="row mt-30">
+            <div class="col-8">
+                <h1 class="mb-0">Pedir Toalhas</h1>
+            </div>
+            <div class="col-4 text-end">
+                <a href="../index.html">
+                    <img src="../_img/icon-cruz.png" id="cruz" alt="icon-voltar-atras">
+                </a>
+            </div>
+        </div>
+
+        <div class="row center" id="coluna">
+            <div class="col-12 center">
+                <img src="../_img/icon-toalhas.png" id="icon-grande" alt="icon-toalhas">
+                <p>Pedir Toalhas</p>
+                <div class="container" id="selecionar-tamanho">
+                    <div class="row">
+                        <div class="col-7 text1 fluid">
+                            Tamanho:
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light" id="selecionar1">Escolher</button>
+                        </div>
+                    </div>
+
+                    <hr id="linha1">
+
+                    <div class="row">
+                        <div class="col-7 text1">
+                            Quantidade:
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn btn-outline-light" id="selecionar2">Escolher</button>
+                        </div>
+                    </div>
+
+                    <hr id="linha1">
+
+                    <div id="adicionar">
+                        <button type="button" class="btn btn-outline-light" id="adicionar">
+                            <img src="../_img/icon-adicionar-branco.png" alt="icon-ligar">
+                            Adicionar
+                        </button>
+                    </div>
+
+                    <!-- <div id="limpar">
+                        <img src="../_img/icon-cruz-branco.png" alt="icon-cancelar-novo-pedido">
+                    </div> -->
+                </div>
+
+                <button type="button" class="btn btn-outline-dark" id="fazer-pedido">Fazer Pedido</button>
+            </div>
+
+            <div id="escolherTamanho">
+                <div id="background-escolher-tamanho-toalhas">
+                    <p>Selecionar Tamanho</p>
+
+                    <button type="button" class="btn btn-outline-light" id="option1-tamanho">Pequeno</button>
+
+                    <hr id="linha3">
+
+                    <button type="button" class="btn btn-outline-light" id="option2-tamanho">Grande</button>
+                </div>
+            </div>
+
+            <div id="escolherQuantidade">
+                <div id="background-escolher-quantidade-toalhas">
+                    <p>Selecionar Quantidade</p>
+
+                    <button type="button" class="btn btn-outline-light" id="option1-quantidade">1</button>
+
+                    <hr id="linha3">
+
+                    <button type="button" class="btn btn-outline-light" id="option2-quantidade">2</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="novo-pedido"></div>
+
+    <!-- <script src="../script.js"></script> -->
+    <script src="servicos.js"></script>
+    <script src="../pedidos-registos.js"></script>
+    <script type="module" src="../firestore.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
